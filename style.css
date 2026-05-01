@@ -103,3 +103,18 @@ body > a {
 body > a:hover {
     background: #3b82f6;
 }
+
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* hover effect */
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
