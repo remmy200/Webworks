@@ -77,10 +77,13 @@ li {
 
 a {
     color: #2563eb;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #1d4ed8;
+    transform: translateY(-2px);
 }
 
 
